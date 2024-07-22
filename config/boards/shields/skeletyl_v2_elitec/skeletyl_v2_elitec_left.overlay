@@ -6,3 +6,12 @@
 
 #include "skeletyl_v2_elitec.dtsi"
 
+&kscan0 {
+	col-gpios
+		= <&pro_micro 20 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+		, <&pro_micro 26 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+		, <&pro_micro 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+		, <&pro_micro 11 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+		, <&pro_micro 12 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+		;
+};
