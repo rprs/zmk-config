@@ -52,7 +52,7 @@
 
             bindings = <
 &bt BT_CLR    &trans        &kp ESC             &kp TILDE  &trans            &kp TAB   &kp HOME  &kp UP         &kp END    &kp PAGE_UP
-&bt BT_SEL 0  &kp K_CMENU   &kp RALT            &kp LCTRL  &trans            &kp FSLH  &kp LEFT  &kp DOWN       &kp RIGHT  &kp PG_DN
+&bt BT_SEL 0  &kp K_CMENU   &kp LALT            &kp LCTRL  &trans            &kp FSLH  &kp LEFT  &kp DOWN       &kp RIGHT  &kp PG_DN
 &bt BT_SEL 1  &bt BT_SEL 2  &kp LC(C)           &kp LC(V)  &trans            &kp BSLH  &kp RET   &kp BACKSPACE  &kp DEL    &trans
                             &kp LC(LEFT_SHIFT)  &trans     &kp LEFT_SHIFT    &trans    &trans    &trans
             >;
